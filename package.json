@@ -1,9 +1,12 @@
 {
-  "name": "bank-management-system",
-  "version": "1.0.0",
+  "name": "itus-banking",
+  "version": "2.0.3",
   "description": "",
   "main": "index.js",
   "type": "module",
+  "bin": {
+    "itus-banking": "bank.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
